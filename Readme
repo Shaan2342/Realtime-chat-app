@@ -1,0 +1,44 @@
+# Real-Time Chat Application
+
+## Overview
+This is a real-time chat application built with Node.js for the backend and React for the frontend. It utilizes Socket.io for real-time communication.
+
+## Prerequisites
+- Node.js (LTS version recommended)
+- npm (Node package manager)
+
+## Installation Guide
+
+### Step 1: Clone the Repository
+Clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/yourusername/realtime-chat-app.git
+cd realtime-chat-app
+
+Step 2: Install Backend Dependencies
+Navigate to the backend directory and install the required dependencies:
+cd backend
+npm install
+
+Step 4: Start the Backend Server
+Run the backend server using the following command
+node server.js
+
+Step 5: Install Frontend Dependencies
+Open a new terminal window, navigate to the frontend directory, and install the required dependencies:
+cd frontend
+npm install
+
+
+Step 6: Start the Frontend Application
+Run the frontend application using the following commannd
+npm start
+This will start the React application, and it should open in your default web browser.
+
+Usage
+Open multiple browser windows or tabs to test the chat functionality.
+Enter different usernames in each instance to simulate multiple users chatting in real-time.
+Troubleshooting
+If you encounter issues with untracked files or Git warnings, ensure that you are in the correct directory and that there are no nested Git repositories.
+For line ending warnings, configure Git to handle line endings properly:
+git config --global core.autocrlf true
