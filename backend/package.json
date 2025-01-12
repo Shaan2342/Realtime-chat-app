@@ -1,0 +1,19 @@
+{
+  "name": "realtime-chat-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for the real-time chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
